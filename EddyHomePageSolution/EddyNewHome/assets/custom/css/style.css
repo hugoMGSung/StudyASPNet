@@ -1807,7 +1807,7 @@ figure.effect-goliath {
   float: right; }
 #feedback .feedback .wpcf7-form .left-field, #feedback .feedback .wpcf7-form .right-field {
   width: calc(50% - 5px); }
-#feedback .feedback .wpcf7-form input[type="text"], #feedback .feedback .wpcf7-form input[type="email"], #feedback .feedback .wpcf7-form input[type="password"], #feedback .feedback .wpcf7-form input[type="search"], #feedback .feedback .wpcf7-form input[type="url"], #feedback .feedback .wpcf7-form textarea {
+#feedback .feedback .wpcf7-form input[type="text"], #feedback .feedback .wpcf7-form input[type="email"], #feedback .feedback .wpcf7-form input[type="password"], #feedback .feedback .wpcf7-form input[type="search"], #feedback .feedback .wpcf7-form input[type="url"], #feedback .feedback .wpcf7-form select textarea {
   padding: 12px 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 0 0 2px transparent inset;
   box-sizing: border-box;

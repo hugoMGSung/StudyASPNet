@@ -128,8 +128,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BoardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
+    <Compile Include="Controllers\ResumeController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -258,6 +261,7 @@
     <Content Include="assets\custom\images\userpic05.jpg" />
     <Content Include="assets\custom\js\custom.js" />
     <Content Include="assets\custom\php\form.php" />
+    <Content Include="assets\custom\scss\style.scss" />
     <Content Include="assets\vendor\anicounter\jquery.counterup.min.js" />
     <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.css" />
     <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.min.css" />
@@ -329,7 +333,6 @@
     <Content Include="assets\custom\scss\buttons.scss" />
     <Content Include="assets\custom\scss\colors.scss" />
     <Content Include="assets\custom\scss\mediaquery.scss" />
-    <Content Include="assets\custom\scss\style.scss" />
     <Content Include="assets\custom\scss\typography.scss" />
     <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="assets\vendor\bootstrap\css\bootstrap-theme.min.css.map" />
@@ -405,6 +408,9 @@
     <Content Include="Views\Member\Entry.cshtml" />
     <Content Include="Views\Member\List.cshtml" />
     <Content Include="Views\Member\Edit.cshtml" />
+    <Content Include="Views\Resume\Index.cshtml" />
+    <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="Views\Board\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
